@@ -1,0 +1,104 @@
+
+
+.form-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.star-rating {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.star-rating i {
+    font-size: 24px;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.star-rating i.active {
+    color: #ffcc00;
+}
+
+.checkbox-group,
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.checkbox-group label,
+.radio-group label {
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.submit-btn {
+    background: #6a1b9a;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+   }
+
+.submit-btn:hover {
+    background: #4a148c;
+}
+
+.hidden {
+    display: none;
+}
+
+#thankYouMessage {
+    text-align: center;
+    padding: 20px;
+}
+
+#thankYouMessage h2 {
+    color: #6a1b9a;
+}

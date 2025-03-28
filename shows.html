@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar navbar-expand-lg navtop">
+        <div class="container-fluid" style="justify-content: space-between; display: flex;">
+            <div class="navbar-brand">
+                <a href="#"><img style="width: 120px;"
+                        src="https://theater.cmsmasters.net/wp-content/themes/theater/theme-vars/theme-style/img/logo.png"
+                        alt=""></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav" style="gap: 10px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="style.html">Home</a>
+                    </li>
+                    <li class="nav-item nv-dropdown position-relative">
+                        <a class="nav-link " href="shows.html">Shows</a>
+
+                    </li>
+                    <li class="nav-item nv-dropdown position-relative">
+                        <a class="nav-link " href="features.html">Actors</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="form.html">Feedback</a>
+                    </li>
+            </div>
+            <div>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html"><i class="fa-regular fa-user"
+                            style="font-size: 30px;padding-bottom: 20px;"></i></a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div style="background-color: #000000 ;padding: 100px 0px;">
+        <div class="container" style="background-color: #000000;padding-top: 70px;max-width: 1000px;">
+            <h1 style="font-family: 'Times New Roman', Times, serif;text-align: center;color: #b49761;">
+                FEATURED SHOWS
+            </h1>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img
+                            src="https://images.gem.cbc.ca/v1/synps-cbc/show/perso/cbc_slings_arrows_ott_program_v02.jpg?impolicy=ott&im=Resize=1200&quality=75" />
+                        <div class="readmore-btn">
+                            <a href="#"><i class="fa-duotone fa-solid fa-book-open"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/3/31/Showtime_at_the_apollo_fox.png" />
+                        <div class="readmore-btn">
+                            <a href="#"><i class="fa-duotone fa-solid fa-book-open"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/0/0d/Last_Comic_Standing_logo.png" />
+                        <div class="readmore-btn">
+                            <a href="#"><i class="fa-duotone fa-solid fa-book-open"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://i.ebayimg.com/images/g/jGcAAOSwo-ldDPkt/s-l1200.png" />
+                        <div class="readmore-btn">
+                            <a href="#"><i class="fa-duotone fa-solid fa-book-open"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://cdn.dc5.ro/img-prod/2446624329-0.jpeg" />
+                        <div class="readmore-btn">
+                            <a href="#"><i class="fa-duotone fa-solid fa-book-open"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img
+                            src="https://m.media-amazon.com/images/M/MV5BNzkzY2E3MDYtZDQwZS00ZmQxLWFmNDQtNmVjY2E5N2M0MjZjXkEyXkFqcGc@._V1_.jpg" />
+                        <div class="readmore-btn">
+                            <a href="#"><i class="fa-duotone fa-solid fa-book-open"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    </div>
+
+    </div>
+
+    <h1
+        style="background: rgb(224, 224, 224);padding:50px ;color: rgb(0, 0, 0);font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;text-align: center;">
+        Upcoming Shows
+    </h1>
+
+    <div class="container" style="padding: 30px 0px;">
+        <nav style="text-align: center;" class="customtab">
+            <div class="nav nav-tabs" id="nav-tab" role="tablist"
+                style="    justify-content: center;gap: 100px;border: unset;">
+                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                    type="button" role="tab" aria-controls="nav-home" aria-selected="true">Plays </button>
+                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                    type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Ballet</button>
+                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+                    type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Opera</button>
+
+            </div>
+        </nav>
+
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+                tabindex="0">
+                <div style="display: flex;justify-content: space-around;padding: 50px 0px;">
+                    <div class="card-hover">
+                        <div class="card-hover__content">
+                            <h3 class="card-hover__title">
+                                Les Miserables
+                            </h3>
+                            <p class="card-hover__text">Les Misérables is a French novel by Victor Hugo that criticizes
+                                how
+                                society treats members of lower social classes. It is about a man named Jean Valjean who
+                                goes to prison for stealing bread. Another major character is Fantine, who is shunned
+                                because she has a daughter outside of marriage.</p>
+
+                        </div>
+
+                        <img src="https://theater.cmsmasters.net/wp-content/uploads/2015/01/67s868737sdf.jpg" alt="">
+                    </div>
+                    <div class="card-hover">
+                        <div class="card-hover__content">
+                            <h3 class="card-hover__title">
+                                42nd Street
+                            </h3>
+                            <p class="card-hover__text">42nd Street is a 1980 stage musical with a book by Michael
+                                Stewart
+                                and Mark Bramble, lyrics by Al Dubin and Johnny Mercer and music by Harry Warren. The
+                                1980
+                                Broadway production won the Tony Awards for Best Musical and Best Choreography and it
+                                became
+                                a long-running hit.</p>
+
+
+                        </div>
+
+                        <img src="https://theater.cmsmasters.net/wp-content/uploads/2017/06/6305693884_4856279667_o.jpg"
+                            alt="">
+                    </div>
+                    <div class="card-hover">
+                        <div class="card-hover__content">
+                            <h3 class="card-hover__title">
+                                Half A Sixpence
+                            </h3>
+                            <p class="card-hover__text">Half a Sixpence is a 1963 musical comedy based on the 1905 novel
+                                Kipps by H. G. Wells, with music and lyrics by David Heneker and a book by Beverley
+                                Cross.
+                                It was written as a vehicle for British pop star Tommy Steele.</p>
+
+                        </div>
+
+                        <img src="https://theater.cmsmasters.net/wp-content/uploads/2015/01/299385981_d0cd7e05da_o-t-360x350.jpg"
+                            alt="">
+                    </div>
+
+                </div>
+
+
+
+            </div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+                <div style="display: flex;justify-content: space-around;padding: 50px 0px;">
+                    <div class="card-hover">
+                        <div class="card-hover__content">
+                            <h3 class="card-hover__title">
+                                The Nutcracker
+                            </h3>
+                            <p class="card-hover__text">"The Nutcracker" is a beloved classical ballet, based on E.T.A.
+                                Hoffmann's fairy tale "The Nutcracker and the Mouse King," featuring music by Pyotr
+                                Ilyich Tchaikovsky and set on Christmas Eve, where a young girl embarks on a magical
+                                journey to the Land of Sweets. .</p>
+
+                        </div>
+
+                        <img src="https://images.ctfassets.net/6pezt69ih962/6pN7IKHBmhilJhXruZAhTM/2bbe4fab52252f27ba325a6377afe599/Nuts_Generic_480x720.jpg?h=450&fm=webp&q=90"
+                            alt="">
+                    </div>
+                    <div class="card-hover">
+                        <div class="card-hover__content">
+                            <h3 class="card-hover__title">
+                                Giselle
+                            </h3>
+                            <p class="card-hover__text">Christopher Wheeldon's remarkable career spanning ballet to
+                                musical theatre has brought him from London to New York and beyond, and has earned him
+                                international acclaim. Recently nominated for an Olivier award for his choreography in
+                                MJ The Musical, Wheeldon and his versatile artistry is celebrated in this mixed
+                                programme.</p>
+
+
+                        </div>
+
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBzMfHMlY14U3TzILATMf_ZbwIF_6fI8mgrNI0Nw0fdw&s"
+                            alt="">
+                    </div>
+                    <div class="card-hover">
+                        <div class="card-hover__content">
+                            <h3 class="card-hover__title">
+                                Ballet To Brodway
+                            </h3>
+                            <p class="card-hover__text">
+                                Christopher Wheeldon's remarkable career spanning ballet to
+                                musical theatre has brought him from London to New York and beyond, and has earned him
+                                international acclaim. Recently nominated for an Olivier award for his choreography in
+                                MJ The Musical, Wheeldon and his versatile artistry is celebrated in this mixed
+                                programme.
+                            </p>
+
+                        </div>
+
+                        <img src="https://images.ctfassets.net/6pezt69ih962/2aNJwRVOSIPW8C2KGlj3KH/b409029943ca405f2ae7964a73af8f7d/Ballet_to_Broadway_Today_Tix_JHS_-_Variation_01_-_480x720px.jpg?h=450&fm=webp&q=90"
+                            alt="">
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+                <div style="display: flex;justify-content: space-around;padding: 50px 0px;">
+                    <div class="card-hover">
+                        <div class="card-hover__content">
+                            <h3 class="card-hover__title">
+                                Les Miserables
+                            </h3>
+                            <p class="card-hover__text">A young peasant girl, Giselle, is in love with Albrecht, a Duke
+                                who hides his title and his engagement to another. When Giselle discovers he has
+                                deceived her, she is driven to madness, and dies of a broken heart.</p>
+
+                        </div>
+
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBzMfHMlY14U3TzILATMf_ZbwIF_6fI8mgrNI0Nw0fdw&s" alt="">
+                    </div>
+                    <div class="card-hover">
+                        <div class="card-hover__content">
+                            <h3 class="card-hover__title">
+                                42nd Street
+                            </h3>
+                            <p class="card-hover__text">42nd Street is a 1980 stage musical with a book by Michael
+                                Stewart
+                                and Mark Bramble, lyrics by Al Dubin and Johnny Mercer and music by Harry Warren. The
+                                1980
+                                Broadway production won the Tony Awards for Best Musical and Best Choreography and it
+                                became
+                                a long-running hit.</p>
+
+
+                        </div>
+
+                        <img src="https://theater.cmsmasters.net/wp-content/uploads/2017/06/6305693884_4856279667_o.jpg"
+                            alt="">
+                    </div>
+                    <div class="card-hover">
+                        <div class="card-hover__content">
+                            <h3 class="card-hover__title">
+                                Half A Sixpence
+                            </h3>
+                            <p class="card-hover__text">Half a Sixpence is a 1963 musical comedy based on the 1905 novel
+                                Kipps by H. G. Wells, with music and lyrics by David Heneker and a book by Beverley
+                                Cross.
+                                It was written as a vehicle for British pop star Tommy Steele.</p>
+
+                        </div>
+
+                        <img src="https://theater.cmsmasters.net/wp-content/uploads/2015/01/299385981_d0cd7e05da_o-t-360x350.jpg"
+                            alt="">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="foot">
+        <div class="d-flex text-white gap-4 container" style="font-size: 22px;
+        line-height: 32px;
+        font-weight: bold;">
+            <img src="map.jpg" alt="">
+            <div>
+                <h4 class="pb-4">Info</h4>
+                <div class="d-flex  gap-2">
+                    <i class="fa-solid fa-location-pin" style="padding-top: 4px;"></i>
+                    <p style="font-size: 14px;color:grey">Brooklyn, NY 10036, United States</p>
+                </div>
+                <div class="d-flex  gap-2">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p style="font-size: 14px;color:grey">abc123@exmple.com</p>
+                </div>
+
+                <div class="d-flex  gap-2">
+                    <i class="fa-solid fa-phone"></i>
+                    <p style="font-size: 14px;color:grey">0100-9871230</p>
+                </div>
+
+
+            </div>
+        </div>
+        <div>
+            <hr>
+
+            <p style="font-style: italic; text-align: center;font-weight: 500;color: white;">
+                powered by
+                <span style="text-decoration: underline;" class="footspan">
+                    <a href="#">theatre.com</a>
+                </span>
+            </p>
+            <div class="icons">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                effect: "coverflow",
+                grabCursor: true,
+                centeredSlides: true,
+                slidesPerView: "3",
+                coverflowEffect: {
+                    rotate: 50,
+                    stretch: 0,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows: true,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                },
+            });
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+</body>
+
+</html>
